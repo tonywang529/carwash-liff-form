@@ -106,7 +106,7 @@
       const profile = await liff.getProfile();
       document.getElementById('userId').value = profile.userId;
     }
-
+f
     initLiff();
 
     document.getElementById('registerForm').addEventListener('submit', async (e) => {
@@ -127,7 +127,7 @@
         ]
       };
 
-      const response = await fetch("https://script.google.com/macros/s/AKfycbyfOYOuNI-2e0yTJBtLS53fXUANC1Joyp8pYuGZJNddvTDhl5lkFNQGaZ6Ti7WZz70d/exec", {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbz1G1xQe7POOyV837qyj54OjAdLOt8_i-DnPy7QuHTNgxtB5Out5MSn6xuY6dTunr0w/exec", {
         method: 'POST',
         body: JSON.stringify(data),
         headers: { 'Content-Type': 'application/json' }
